@@ -15,8 +15,9 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-> Use for adding copyright information to views.
-
+```ruby
+AtemiViewTool::Renderer.copyright 'Jonathan Atemi', 'All rights reserved'
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
